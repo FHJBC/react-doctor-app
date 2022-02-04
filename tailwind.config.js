@@ -9,7 +9,14 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'hero-pattern': "url('/src/assets/images/med03.jpg')",
-       })
+       }),
+      colors: {
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
+      },
+    },
+    fontFamily: {
+        'nunito-sans': ['"Nunito Sans"', 'sans-serif'] 
     },
   },
   plugins: [],
