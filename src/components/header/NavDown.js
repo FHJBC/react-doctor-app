@@ -19,11 +19,11 @@ const NavDown = () => {
         (
             <nav className='shadow-md sticky top-0 transition-all bg-white text-[#516191] flex flex-col lg:flex-row p-4 lg:justify-center lg:items-center'>
                 <div className='border-b-2 py-3 w-full lg:w-auto lg:border-none'>
-                    <a href="#hero" className='hover:text-pink-700 lg:p-2 uppercase'>Accueil</a>
+                    <a href="#hero" className='hover:text-pink-700 lg:p-2 uppercase font-nunito-sans font-bold active:text-pink-700'>Accueil</a>
                     <button onClick={() => setIsDisplayed(true)} className='float-right lg:hidden'><FontAwesomeIcon icon={faTimes} /></button>
                 </div>
-                <a href="#bio" className='w-full py-3 border-b-2 lg:w-auto lg:border-none hover:text-pink-700 lg:p-2 uppercase'>Apropos</a>
-                <a href="#services" className='w-full py-3 lg:w-auto lg:border-none hover:text-pink-700 lg:p-2 uppercase'>Services</a>
+                <a href="#bio" className='w-full py-3 border-b-2 lg:w-auto lg:border-none hover:text-pink-700 lg:p-2 uppercase font-nunito-sans font-bold active:text-pink-700'>A propos</a>
+                <a href="#services" className='w-full py-3 lg:w-auto lg:border-none hover:text-pink-700 lg:p-2 uppercase font-nunito-sans font-bold active:text-pink-700'>Services</a>
             </nav>
         )
     }

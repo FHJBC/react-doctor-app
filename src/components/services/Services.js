@@ -15,7 +15,7 @@ const Services = () => {
                 <p className='font-semibold'>Numéro d'urgence: </p>
                 <p className='text-2xl font-bold mb-16'>+261 32 00 550 01</p>
             </div>
-            <div className='lg:w-2/3 flex flex-wrap justify-between items-center'>
+            <div className='lg:w-2/3 flex flex-wrap justify-evenly items-center'>
                 <Card image={img1} mainTitle={"Disponible 24/24h 7/7j"} />
                 <Card image={img2} mainTitle={"Médecin professionnel"} />
                 <Card image={img3} mainTitle={"Laboratoire de qualité"} />

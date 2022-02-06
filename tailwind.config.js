@@ -18,6 +18,9 @@ module.exports = {
     fontFamily: {
         'nunito-sans': ['"Nunito Sans"', 'sans-serif'] 
     },
+    backgroundColor: {
+      'bg-custom-1': '#182342'
+    },
   },
   plugins: [],
 }

@@ -1,0 +1,15 @@
+.card-zoom {
+    @apply relative flex items-center justify-center m-3 overflow-hidden shadow-xl w-full h-screen rounded-2xl;
+}
+
+.card-zoom-image {
+    @apply absolute w-full h-full transition-all duration-[3000ms] ease-in-out transform bg-center bg-cover z-10;
+}
+
+.overlay {
+    @apply absolute w-full h-full bg-[#182342]/[0.38] z-20;
+}
+
+.card-zoom:hover .card-zoom-image {
+    @apply scale-150;
+} 
